@@ -47,6 +47,6 @@ class Window:
         if data_item['Country_text'].lower() == 'world':
             Error('Type valid country name')
         else:
-            self.__data_label.setText(f"Cases: {data_item['Total Cases_text']}\n "
-                                      f"Deaths: {data_item['Total Deaths_text']}\n "
+            self.__data_label.setText(f"Cases: {data_item['Total Cases_text']}\n"
+                                      f"Deaths: {data_item['Total Deaths_text']}\n"
                                       f"Recovered: {data_item['Total Recovered_text']}")
