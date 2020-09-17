@@ -25,7 +25,7 @@ class Window:
         self.__toolbox = QToolBox()
         self.__grid.addWidget(self.__toolbox)
 
-        self.__dadta_label = QLabel()
+        self.__data_label = QLabel()
         self.__toolbox.addItem(self.__data_label, 'Data:')
 
         self.__widget.setWindowTitle('Covid App')
