@@ -19,31 +19,31 @@ class Window:
 
         self.__button = QPushButton(self.__widget)
         self.__button.setText('Search')
-        self.__button.clicked.connect(self.make_request)
+        self.__button.clicked.connect(self.__make_request)
         self.__grid.addWidget(self.__button, 0, 2)
 
         self.__toolbox = QToolBox()
         self.__grid.addWidget(self.__toolbox)
 
-        self.__data_label = QLabel()
+        self.__dadta_label = QLabel()
         self.__toolbox.addItem(self.__data_label, 'Data:')
 
         self.__widget.setWindowTitle('Covid App')
         self.__widget.show()
 
-    def make_request(self):
+    def __make_request(self):
         if self.__entry.text():
             req = Request("GET", self.__entry.text())
             res = req.get_api()
             if res:
-                return self.set_data(res)
+                return self.__set_data(res)
             else:
                 return
         else:
             Error('Enter country name')
             self.__data_label.setText("")
 
-    def set_data(self, data_item):
+    def __set_data(self, data_item):
         if data_item['Country_text'].lower() == 'world':
             Error('Type valid country name')
         else:
