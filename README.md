@@ -17,4 +17,4 @@
 * **UML Klass**: ![UMLClasses](UMLClasses.png)
 
 ## Opis klas
-    - Główną klasą w tym projkecie jest klasa Window, która to czerpie z klasy Error w przypadku gdy program napotka problem, w klasie Error zawarte sa informacje na temat błędów w programie. Klasa Request uruchamia się gdy wywoływane jest zapytanie do API, ta klasa odpowiada za zadanie zapytania i odebranie go, następnie wysyla je do klasy głównej w odpowiedniej formie.
+   - Główną klasą w tym projkecie jest klasa Window, która to czerpie z klasy Error w przypadku gdy program napotka problem, w klasie Error zawarte sa informacje na temat błędów w programie. Klasa Request uruchamia się gdy wywoływane jest zapytanie do API, ta klasa odpowiada za zadanie zapytania i odebranie go, następnie wysyla je do klasy głównej w odpowiedniej formie.
