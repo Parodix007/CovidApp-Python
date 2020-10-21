@@ -17,4 +17,6 @@
 * **UML Klass**: ![UMLClasses](UMLClasses.png)
 
 ## Opis klas
-   - Główną klasą w tym projkecie jest klasa Window, która to czerpie z klasy Error w przypadku gdy program napotka problem, w klasie Error zawarte sa informacje na temat błędów w programie. Klasa Request uruchamia się gdy wywoływane jest zapytanie do API, ta klasa odpowiada za zadanie zapytania i odebranie go, następnie wysyla je do klasy głównej w odpowiedniej formie.
+   - **Klasa Window:** Jest to klasa ktora jest odpowiedzialna za wyswietlanie naszej aplikacji, w niej jest zawarte cale GUI projketu. Klasa ta czerpie z klasy Error i Request.
+   - **Klasa Error:**  Jest to klasa ktora odpowiada za wyswietlanie erroru w formie GUI, klasa ta dostaje jako argument error ktory ma za zadanie wyswietlic.
+   - **Klasa Request:** Jest to klasa odpowiedzialna za wykonanie zapytania do API z ktorego czerpie aplikacja. Przyjmuje ona metode i kraj w ktorym uzytkownik chce zobaczyc stan koronwirusa, metoda oczywiscie jest to metoda zapytania. Ta klasa jest uzywana w klasie Window. 

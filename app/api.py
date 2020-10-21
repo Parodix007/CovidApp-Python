@@ -4,7 +4,6 @@ from error import Error
 
 
 class Request:
-    __now = datetime.datetime.now()
 
     def __init__(self, method, country):
         self.__method = method
