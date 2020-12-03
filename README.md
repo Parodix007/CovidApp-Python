@@ -17,6 +17,6 @@
 * **UML Klass**: ![UMLClasses](UMLClasses.png)
 
 ## Opis klas
-   - **Klasa Window:** Jest to klasa ktora jest odpowiedzialna za wyswietlanie naszej aplikacji, w niej jest zawarte cale GUI projketu. Klasa ta czerpie z klasy Error i Request.
+   - **Klasa Window:** Jest to klasa ktora jest odpowiedzialna za wyswietlanie naszej aplikacji, w niej jest zawarte cale GUI projketu. Klasa ta używa klas Error i Request.
    - **Klasa Error:**  Jest to klasa ktora odpowiada za wyswietlanie erroru w formie GUI, klasa ta dostaje jako argument error ktory ma za zadanie wyswietlic.
    - **Klasa Request:** Jest to klasa odpowiedzialna za wykonanie zapytania do API z ktorego czerpie aplikacja. Przyjmuje ona metode i kraj w ktorym uzytkownik chce zobaczyc stan koronwirusa, metoda oczywiscie jest to metoda zapytania. Ta klasa jest uzywana w klasie Window. 
